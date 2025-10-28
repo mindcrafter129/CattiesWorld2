@@ -12,5 +12,6 @@
     "2.184.1": "Added a way to sort levels by date, viewcount, like-dislike ratio and alphabet!",
     "2.184.3": "Added victory screen, fixed walking animation and added a backwards walking animation",
     "2.185": "Added organs, Added a way to sort levels by date, viewcount, like-dislike ratio and alphabet, Added victory screen, fixed walking animation and added a backwards walking animation, fixed blenders being weak and colliding with saws and blenders, fixed blood spouts staying eventhough the parent limb had been destroyed, disabled blood physics by default because it was extremely performance intensive. Also fixed a stupid!!! bug where the camera would get a seizure for a second when your chest would be destroyed",
-    "2.186": "Added spinal vertebrae, added gore decals to saws and blenders, added a crushing sound, spent way too long on something that didn't work..."
+    "2.186": "Added spinal vertebrae, added gore decals to saws and blenders, added a crushing sound, spent way too long on something that didn't work...",
+    "2.187": "Added checkpoint, this stores your position and your lost limbs (I think this is a cool feature lol) and added a way to toggle wether you want the resource-intensive back vertebrae and blood vessels. Also made the music go quieter when the game is paused"
 }
