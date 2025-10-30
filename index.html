@@ -136,7 +136,7 @@
     </div>
 
     <script>
-        const versions = ['2.187','2.186','2.185', '2.184', '2.183', '2.182', '2.181', '2.180', '2.179', '2.178', '2.177', '2.176', '2.175']
+        const versions = ['2.187','2.186','2.185', '2.184', '2.183', '2.182', '2.181', '2.180', '2.179', '2.178', '2.177', '2.176', '2.175', 'unreleased', '2.174', '2.173', '2.172', '2.171', '2.170', '2.169']
         let selected = versions[0]
         
         mouse = {}
@@ -150,7 +150,7 @@
         })
         .then(data => {
             changelog = data;
-        document.getElementById('description').textContent = changelog[versions[0]]
+            document.getElementById('description').textContent = changelog[versions[0]]
         })
         .catch(error => console.error("Error:", error));
 
@@ -169,7 +169,8 @@
                 item.textContent = versions[i]
                 item.className = 'dropdownItem'
                 dropdown.appendChild(item)
-                if(Math.floor(i/2) == i/2) {
+                if(item.textContent.includes(2)) {
+                    if(Math.floor(i/2) == i/2) {
                     item.style.backgroundColor = '#313131'
                 } else {
                     item.style.backgroundColor = '#363636'
@@ -182,13 +183,21 @@
                 }
                 item.addEventListener('click', () => {
                     selected = item.textContent
-                    document.getElementById('description').textContent = changelog[item.textContent]
+                    let change
+                    if(selected) {change = changelog[item.textContent]}
+                    
+                    if(change) { document.getElementById('description').textContent = change }
                     document.getElementById('version').textContent = item.textContent
                     changelog.hidden = false
                     overlay.hidden = true
                     dropdown.remove()
                     click()
                 })
+                } else {
+                    item.style.backgroundColor = '#313131'
+                    item.style.filter = 'brightness(.8)'
+                }
+                
             }
             overlay.hidden = false
             document.body.appendChild(dropdown)
