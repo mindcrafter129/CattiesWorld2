@@ -1,0 +1,113 @@
+    html, body {
+        background-color: rgb(27, 12, 12);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Archivo;
+        color: rgb(226, 226, 226);
+        user-select: none;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    #pane {
+        background-color: rgb(109, 48, 48);
+        width: 500px;
+        height: fit-content;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction:column;
+        border-radius: 5px;
+    }
+    #title {
+        font-family: Archivo Black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    button {
+        background-color: rgb(160, 71, 71);
+        border-style: none;
+        border-radius: 5px;
+        color:white;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    #play {
+        margin-top: auto;
+        padding: 20px;
+        font-size: 25px;
+    }
+    button:hover, #version:hover {
+        cursor: pointer;
+        background-color: rgb(172, 95, 95);
+        transition: .2s;
+    }
+    button:active, #version:active {
+        background-color: rgb(105, 39, 39);
+        color: rgb(167, 167, 167);
+        transition: .05s;
+    }
+    #version {
+        margin: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: calc(auto);
+        width: 100px;
+        background-color: gray;
+        padding: 20px;
+        background-color: rgb(160, 71, 71);
+        border-radius: 5px;
+    }
+    #version:hover {
+        cursor: pointer;
+    }
+    .dropdown {
+        position: absolute;
+        background-color: #363636;
+        width: 200px;
+        max-height: 50%;
+        overflow-y: scroll;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.147);
+    }
+    .dropdownItem {
+        padding: 5px;
+        font-size: 20px;
+    }
+    .dropdownItem:hover {
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+    .dropdownItem:active {
+        filter: brightness(.8);
+    }
+    #description {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .dropdowntext {
+        margin: 5px;
+        margin-top: 5px;
+    }
+    #darkoverlay {
+        background-color: rgba(0, 0, 0, 0.356);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(2px);
+    }
+    #changelog {
+        font-family: Archivo Black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+    }
