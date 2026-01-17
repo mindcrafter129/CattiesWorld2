@@ -33,6 +33,9 @@ Other versions: [Click Here](changelog.json)<br>
 
 <h1>Credits</h1>
 
+**README**<br>
+mindcrafter129
+
 **Code and Art**<br>
 Hugo Bouquet, also known as Greedy Allay
 
@@ -45,4 +48,3 @@ Penguinmod
 Kubbi (intro music)<br>
 Jules Gaia (in-game music)<br>
 AdhesiveWombat (skin selection menu)<br>
-
