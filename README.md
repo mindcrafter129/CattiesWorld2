@@ -33,7 +33,7 @@ Other versions: [Click Here](changelog.json)<br>
 
 <h1>Credits</h1>
 
-**Code and Art**
+**Code and Art**<br>
 Hugo Bouquet, also known as Greedy Allay
 
 **Editor**
