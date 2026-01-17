@@ -10,7 +10,7 @@
 
 <h3>How to play</h3>
 
-go to [cattiesworld.nl](https://cattiesworld.nl) and have fun!
+Go to [cattiesworld.nl](https://cattiesworld.nl) and have fun!
 
 <h1>Changelog</h1>
 Latest version: 2.191
