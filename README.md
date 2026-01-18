@@ -8,6 +8,8 @@
 
 <h3></h3>
 <img src="https://www.cattiesworld.nl/images/newercontrols.svg" width="300" alt="WASD to move, Space to brake, Z to eject, E to jump, Shift to toggle boost>
+
+<br>
 <h3>How to play</h3>
 
 Go to [cattiesworld.nl](https://cattiesworld.nl) and have fun!
@@ -19,7 +21,7 @@ Changelog:<br>
 - added victory screen
 - added back legacy Cattie's World 1 music
 - drastically improved screenshot button to be actually useful
-
+<br>
 Other versions: [Click Here](changelog.json)<br>
 
 
@@ -40,7 +42,7 @@ Hugo Bouquet, also known as Greedy Allay
 
 **Editor**
 <br>
-Penguinmod
+Penguinmod, which is based off of Turbowarp, which is a mod of Scratch.
 
 **Music**
 
