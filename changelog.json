@@ -21,5 +21,7 @@
     "2.190": "Made 2 new backgrounds, Added engine sounds, fixed the level editor outlines and object scaling (FINALLY), added an option to disable heavy UI effects, changed up the pause button, upgraded the motorcycle physics to not be horrific and ass, upgraded the main menu a bit too, made vehicle stop throttle on death. Also gave the buttons a slight redesign to look cleaner. Don't worry, they still got their colors! Also changed the spawn location look. Also added my lovely early supporters to the list! (minus the ones that left, obviously...)",
     "2.190christmas": "Special christmas version of Cattie's World",
     "2.190.4": "Added client side paging to save bandwidth, added some confirmations and main menu button animations",
-    "2.191": "Upgraded jetpack look, fixed it's movement (mostly) and added changelog dialog at the start of the game, also added client side paging to save bandwidth, added some confirmations and main menu button animations"
+    "2.191": "Upgraded jetpack look, fixed it's movement (mostly) and added changelog dialog at the start of the game, also added client side paging to save bandwidth, added some confirmations and main menu button animations",
+    "2.192": "Added leaderboards, a victory screen and added the legacy Cattie's World 1 music back. Also went ahead and made the screenshot button useful. I feel like I did more but I forgot honestly ¯\\_(ツ)_/¯"
+
 }
