@@ -6,20 +6,19 @@
 <h1>Guide</h1>
 <h3>Controls:</h3>
 
-<h3>WASD to move<br>Space to brake<br>Z to eject<br>E to jump <br>Shift to toggle boost</h3>
-
+<h3></h3>
+<img src="https://www.cattiesworld.nl/images/newercontrols.svg" width="300" alt="WASD to move, Space to brake, Z to eject, E to jump, Shift to toggle boost>
 <h3>How to play</h3>
 
 Go to [cattiesworld.nl](https://cattiesworld.nl) and have fun!
 
 <h1>Changelog</h1>
-Latest version: 2.191
+Latest version: 2.192
 Changelog:<br>
-- Upgraded jetpack model<br>
-- Fixed movement bugs<br>
-- Changelog dialog is not at the start of the game<br>
-- Introduced client side paging to save bandwidth<br>
-- Overhauled main menu button animations<br>
+- added leaderboards
+- added victory screen
+- added back legacy Cattie's World 1 music
+- drastically improved screenshot button to be actually useful
 
 Other versions: [Click Here](changelog.json)<br>
 
