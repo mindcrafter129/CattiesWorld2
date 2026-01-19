@@ -7,7 +7,7 @@
 <h3>Controls:</h3>
 
 <h3></h3>
-<img src="https://www.cattiesworld.nl/images/newercontrols.svg" width="300" alt="WASD to move, Space to brake, Z to eject, E to jump, Shift to toggle boost>
+<img src="https://www.cattiesworld.nl/images/newercontrols.svg" width="300" alt="WASD to move, Space to brake, Z to eject, E to jump, Shift to toggle boost">
 
 <br>
 <h3>How to play</h3>
@@ -17,10 +17,10 @@ Go to [cattiesworld.nl](https://cattiesworld.nl) and have fun!
 <h1>Changelog</h1>
 Latest version: 2.192
 Changelog:<br>
-- added leaderboards
-- added victory screen
-- added back legacy Cattie's World 1 music
-- drastically improved screenshot button to be actually useful
+- added leaderboards<br>
+- added victory screen<br>
+- added back legacy Cattie's World 1 music<br>
+- drastically improved screenshot button to be actually useful<br>
 <br>
 Other versions: [Click Here](changelog.json)<br>
 
