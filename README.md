@@ -1,6 +1,6 @@
 <img src="https://assets.paymind.online/logo.png" alt="logo" width="400"><br>
 ### A complete rewrite of a game about a cat riding a bike.
-
+Woah, you're one of the very few people that have ever gotten here! You're special!
 
 ![Gameplay](https://assets.paymind.online/catties-world-gameplay.gif)
 <h1>Guide</h1>
@@ -10,6 +10,32 @@
 <img src="https://www.cattiesworld.nl/images/newercontrols.svg" width="300" alt="WASD to move, Space to brake, Z to eject, E to jump, Shift to toggle boost">
 
 <br>
+
+
+<h1>How to mod</h1>
+Modding the game is very straightforward! (no prior coding experience needed!) The code is built in Scratch and made to be as readable as possible in order to make modding easy. Follow the steps below to get started.
+
+<h2>1. Set up your workspace</h2>
+1.1 Head to the <a href="https://github.com/cattiesworld/CattiesWorld2/tree/main/source" target="_blank">project file list</a> and download whatever version you want. Latest version recommended!<br>
+1.2 Head to <a href="https://studio.penguinmod.com/editor.html">https://studio.penguinmod.com/editor.html</a><br>
+1.3 Click "File", then "Load from computer" and select the project file.<br>
+1.4 Get coding! <br>
+<h2>2. Getting coding</h2>
+Official Modding videos by me: <a href="https://www.youtube.com/playlist?list=PLhRw_uF5keaLLw2w5AyNWgIYtYHS3_Yx0">https://www.youtube.com/playlist?list=PLhRw_uF5keaLLw2w5AyNWgIYtYHS3_Yx0</a><br>
+
+- Modding the game is very straightforward. Even if you have no prior coding experience, you should be able to mod at least portions of the game. If you're more advanced, you might even be able to add new extra features!
+- The code for the ragdoll physics engine and the stage are all located in the CopyCatEngine sprite.<br>
+- Parts of the UI are built with HTML. The code for that can be found in the HTML UI sprite<br>
+- The settings UI is fully modular and can be modified to have more options or to work as a completely different ui for, let's say, the Victory screen.<br>
+- You can ask me (@greedyallay) for tips when modding the game on the <a href="https://discord.gg/S22vZaCeJ9">Cattie's World Discord Server</a>
+<h2>3. Packaging your game</h2>
+3.1 Press "File" then "Save to your computer".<br>
+3.2 Head to <a href="https://studio.penguinmod.com/PenguinMod-Packager/">Penguinmod Packager</a><br>
+3.3 Press upload and select the modified project file.<br>
+3.4 You can change the settings as you like, but it will work perfectly fine with the stock settings.<br>
+3.5 Press "Package" at the bottom of the page.<br>
+3.6 Now you can put it on your website, or submit it on the <a href="https://discord.gg/S22vZaCeJ9">Cattie's World Discord Server</a> and have it be displayed on the official website.<br>
+
 <h3>How to play</h3>
 
 Go to [cattiesworld.nl](https://cattiesworld.nl) and have fun!
@@ -32,10 +58,10 @@ Other versions: [Click Here](changelog.json)<br>
 <img src="https://assets.paymind.online/hostage.png" alt="hostage" width="300"> <img src="https://assets.paymind.online/blender.png" alt="blender" width="320"><br>
 
 
-
 <h1>Credits</h1>
 
 **README**<br>
+Greedy Allay<br>
 mindcrafter129
 
 **Code and Art**<br>
