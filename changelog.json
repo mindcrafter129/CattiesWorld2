@@ -22,6 +22,10 @@
     "2.190christmas": "Special christmas version of Cattie's World",
     "2.190.4": "Added client side paging to save bandwidth, added some confirmations and main menu button animations",
     "2.191": "Upgraded jetpack look, fixed it's movement (mostly) and added changelog dialog at the start of the game, also added client side paging to save bandwidth, added some confirmations and main menu button animations",
-    "2.192": "Added leaderboards, a victory screen and added the legacy Cattie's World 1 music back. Also went ahead and made the screenshot button useful, and added a toggleable speedrun timer at the bottom right. I feel like I did more but I forgot honestly ¯\\_(ツ)_/¯"
+    "2.192": "Added leaderboards, a victory screen and added the legacy Cattie's World 1 music back. Also went ahead and made the screenshot button useful, and added a toggleable speedrun timer at the bottom right. I feel like I did more but I forgot honestly ¯\\_(ツ)_/¯",
+    "2.193": "Added leaderboard comments, made the timer continue where it was when you recover using a checkpoint, and made it pause when you pause the game. Also made sure to clear the checkpoint when you win to prevent you from starting from the checkpoint when restarting, added an option to disable clouds, for performance, fixed the broken local level loading by just copying the code that worked (lol) added a little exclamation mark to the recent levels button whenever a new level is uploaded (all it does is compare the length of the level list with the old one, i'm genius, i know.)",
+    "2.194": "Added level info card before playing, fixed a REALLY annoying bug in the editor where selecting two overlapping shapes would select both, and added shift to multiselect while I were at it, inverted the level rendering to match the editor, removed the level cards expanding on hover because I HATED THAT",
+    "2.194.7": "Added advancements, added notifications that are experimental, added badge integration for newgrounds, that took a very, very long time to all do. That's why the changelog is so short",
+    "2.195": "Added option to disable collision on objects, allowing for background art, added delete option, added advancements, added notifications, added an option to move the camera by holding scroll wheel when access to background is unavailable."
 
 }
